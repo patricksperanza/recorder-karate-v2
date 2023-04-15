@@ -18,11 +18,7 @@ const Music = ({ audio, image }) => {
           onClick={() => setSidebar(!sidebar)}
         />
       )}
-      <img
-        className="music-image"
-        src={`../../public/images/${image}`}
-        alt="music-image"
-      />
+      <img className="music-image" src={`/images/${image}`} alt="music-image" />
       <audio
         controls="controls"
         className="music-audio"
