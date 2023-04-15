@@ -22,7 +22,7 @@ const Music = ({ audio, image }) => {
       <audio
         controls="controls"
         className="music-audio"
-        src={`../../public/audio/${audio}`}
+        src={`/audio/${audio}`}
       ></audio>
     </div>
   )

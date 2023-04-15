@@ -5,5 +5,5 @@
 }
 
 body {
-  background-image: url("./public/images/dojo.jpg");
+  background-image: url("/images/dojo.jpg");
 }
