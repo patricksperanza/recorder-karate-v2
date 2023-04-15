@@ -1,3 +1,7 @@
+.music {
+  position: relative;
+}
+
 .music-image {
   width: 72%;
   display: block;
@@ -10,4 +14,24 @@
   height: 40px;
   display: block;
   margin: 20px auto 20px auto;
+}
+
+.music-bars {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .music-bars {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .music-audio {
+    width: 120px;
+    height: 20px;
+  }
 }

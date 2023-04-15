@@ -1,6 +1,6 @@
 import Intro from "../components/Intro"
 import Rules from "../components/Rules"
-
+import { useOutletContext } from "react-router-dom"
 import "./Home.css"
 import logo from "../assets/images/logo.svg"
 import Navbar from "../components/Navbar"
@@ -9,7 +9,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai"
 import { useState } from "react"
 
 const Home = () => {
-  const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useOutletContext()
   return (
     <div className="home">
       <header className="home-logo">

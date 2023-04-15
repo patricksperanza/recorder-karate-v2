@@ -1,17 +1,18 @@
 .navbar {
   position: absolute;
-  top: 120px;
+  top: 100px;
   left: auto;
   display: flex;
   flex-direction: column;
   gap: 6px;
   padding: 10px;
   border-radius: 8px;
+  z-index: 10;
 }
 
 .btn {
-  width: 100px;
-  height: 34px;
+  width: 85px;
+  height: 30px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -63,7 +64,7 @@
   color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .navbar {
     display: none;
   }

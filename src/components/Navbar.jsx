@@ -1,8 +1,10 @@
 import "./Navbar.css"
 import { Link } from "react-router-dom"
 import { AiOutlineHome } from "react-icons/ai"
+import { useOutletContext } from "react-router-dom"
 
-const Navbar = ({ sidebar }) => {
+const Navbar = () => {
+  const [sidebar, setSidebar] = useOutletContext()
   return (
     <nav className={sidebar ? "navbar active" : "navbar"}>
       <Link to="/">
