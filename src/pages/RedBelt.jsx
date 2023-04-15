@@ -2,13 +2,13 @@ import Navbar from "../components/Navbar"
 import Music from "../components/Music"
 import "./Belts.css"
 
-const WhiteBelt = () => {
+const RedBelt = () => {
   return (
-    <main className="white main">
+    <main className="red main">
       <Navbar />
-      <Music image="whiteBelt.jpg" audio="hot-cross-buns.mp3" />
+      <Music image="redBelt.png" audio="twinkle-twinkle.mp3" />
     </main>
   )
 }
 
-export default WhiteBelt
+export default RedBelt

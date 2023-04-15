@@ -2,7 +2,7 @@ import Intro from "../components/Intro"
 import Rules from "../components/Rules"
 import { useOutletContext } from "react-router-dom"
 import "./Home.css"
-import logo from "../assets/images/logo.svg"
+
 import Navbar from "../components/Navbar"
 import { FaBars } from "react-icons/fa"
 import { AiOutlineCloseCircle } from "react-icons/ai"
@@ -22,7 +22,7 @@ const Home = () => {
             onClick={() => setSidebar(!sidebar)}
           />
         )}
-        <img src={logo} alt="" />
+        <img src="../public/images/logo.svg" alt="" />
         <div className="home-logo-border"></div>
       </header>
       <main className="home-main">

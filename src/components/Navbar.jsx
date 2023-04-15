@@ -13,16 +13,32 @@ const Navbar = () => {
         </button>
       </Link>
       <Link to="/white">
-        <button className="btn white">White</button>
+        <button className="btn btn-white">White</button>
       </Link>
-      <button className="btn yellow">Yellow</button>
-      <button className="btn orange">Orange</button>
-      <button className="btn green">Green</button>
-      <button className="btn purple">Purple</button>
-      <button className="btn blue">Blue</button>
-      <button className="btn red">Red</button>
-      <button className="btn brown">Brown</button>
-      <button className="btn black">Black</button>
+      <Link to="/yellow">
+        <button className="btn btn-yellow">Yellow</button>
+      </Link>
+      <Link to="/orange">
+        <button className="btn btn-orange">Orange</button>
+      </Link>
+      <Link to="/green">
+        <button className="btn btn-green">Green</button>
+      </Link>
+      <Link to="/purple">
+        <button className="btn btn-purple">Purple</button>
+      </Link>
+      <Link to="/blue">
+        <button className="btn btn-blue">Blue</button>
+      </Link>
+      <Link to="/red">
+        <button className="btn btn-red">Red</button>
+      </Link>
+      <Link to="/brown">
+        <button className="btn btn-brown">Brown</button>
+      </Link>
+      <Link to="/black">
+        <button className="btn btn-black">Black</button>
+      </Link>
     </nav>
   )
 }
