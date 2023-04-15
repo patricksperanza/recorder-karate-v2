@@ -1,11 +1,11 @@
 .home {
   width: 90vw;
   max-width: 1000px;
-  min-height: 92vw;
   background: rgb(225, 225, 225);
   margin: 2vh auto;
   border-radius: 5px;
   position: relative;
+  padding-bottom: 40px;
 }
 
 .home-bars {

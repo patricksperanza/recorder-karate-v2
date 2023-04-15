@@ -1,13 +1,18 @@
 import "./Navbar.css"
+import { Link } from "react-router-dom"
 import { AiOutlineHome } from "react-icons/ai"
 
 const Navbar = ({ sidebar }) => {
   return (
     <nav className={sidebar ? "navbar active" : "navbar"}>
-      <button className="btn">
-        <AiOutlineHome />
-      </button>
-      <button className="btn white">White</button>
+      <Link to="/">
+        <button className="btn">
+          <AiOutlineHome />
+        </button>
+      </Link>
+      <Link to="/white">
+        <button className="btn white">White</button>
+      </Link>
       <button className="btn yellow">Yellow</button>
       <button className="btn orange">Orange</button>
       <button className="btn green">Green</button>

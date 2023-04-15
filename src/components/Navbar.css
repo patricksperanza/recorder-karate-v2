@@ -1,12 +1,11 @@
 .navbar {
   position: absolute;
   top: 120px;
-  left: 24px;
+  left: auto;
   display: flex;
   flex-direction: column;
   gap: 6px;
-
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
 }
 

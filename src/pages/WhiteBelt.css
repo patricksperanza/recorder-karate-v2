@@ -1,0 +1,7 @@
+.main {
+  background: rgba(255, 255, 255, 0.65);
+  width: 90vw;
+  margin: 2vh auto;
+  max-width: 1000px;
+  padding-bottom: 20px;
+}
