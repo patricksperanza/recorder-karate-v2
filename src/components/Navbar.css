@@ -1,0 +1,83 @@
+.navbar {
+  position: absolute;
+  top: 120px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 100px;
+  height: 34px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(210, 210, 210);
+  color: black;
+}
+
+.white {
+  background: white;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.orange {
+  background: orange;
+}
+
+.green {
+  background: green;
+  color: white;
+}
+
+.purple {
+  background: purple;
+  color: white;
+}
+
+.blue {
+  background: blue;
+  color: white;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.brown {
+  background: brown;
+  color: white;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar.active {
+    top: 50px;
+    left: auto;
+    display: flex;
+    background: rgb(196, 196, 196);
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar.active {
+    top: 30px;
+  }
+}

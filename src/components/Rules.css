@@ -1,0 +1,20 @@
+.rules {
+  width: 50%;
+  margin: auto;
+  line-height: 1.3rem;
+}
+
+.rules h1 {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.rules p {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .rules {
+    width: 75%;
+  }
+}
