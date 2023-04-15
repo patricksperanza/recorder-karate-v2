@@ -10,7 +10,7 @@
 }
 
 .music-audio {
-  width: 30%;
+  width: 40%;
   height: 30px;
   display: block;
   margin: 20px auto 20px auto;
@@ -32,5 +32,6 @@
 @media screen and (max-width: 600px) {
   .music-audio {
     height: 20px;
+    width: 60%;
   }
 }
